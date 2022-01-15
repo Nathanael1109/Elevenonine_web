@@ -2,8 +2,6 @@
 <html lang="fr">
 <head>
     <meta name="author" content="Nathanael1109">
-    <meta name="keywords" content="elevenonine, 1109, nathanael, Nathanael1109, nath du 11, minecraft, garrysmod, garry's mod, gmod, scprp, mc, scp, themadness, hypixel, je sais pas pk j'ai mit hypixel..., waw t'a cherché jusqu'ici... tu est spécial..">
-    <meta name="copyright" content="Nathanael1109">
     <meta name="generator" content="VSC">
     <meta name="publisher" content="Nathanael1109">
     <link rel="stylesheet" href="css/style.css">
@@ -32,8 +30,6 @@
             </li>
         </ul>
     </nav>
-    <img src="img/favicon.ico" class="front-img">
-    <h1 class="sdn">Site de Nathanaël1109 ! </h1>
-    <h2 class="wip">(work in progress..)</h2>
+    
 </body>
 </html>
