@@ -3,7 +3,7 @@ html{
     background: #888;
 }
 
-body{
+nav{
     text-align: center;
 }
 
@@ -19,13 +19,53 @@ nav.menu-nav ul li.bouton a{
     padding: 18px;
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 10px;
     
 }
 
 nav.menu-nav ul li.bouton:hover a{
     text-decoration: none;
     color: rgb(0, 76, 109);
-    padding-bottom: 55px;
     transition: 0.3s all;
     
+}
+
+body header{
+    text-align: center;
+}
+
+body header div.wip{
+    padding-bottom: 10px;
+}
+
+body header div#front-img{
+    size: 5%;
+}
+
+body div#content div.discord{
+    text-align: center;
+    padding-top: 50px;
+}
+
+body div.vide{
+    height: 200px;
+}
+
+body div.smallvide{
+    height: 50px;
+}
+
+body div#contact{
+    text-align: center;
+}
+
+body div#panel{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
