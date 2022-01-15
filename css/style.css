@@ -4,6 +4,5 @@ html
 {
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    background: rgb(61, 92, 243);
-    background: radial-gradient(circle, rgba(63,94,251,1) 15%, rgba(82,176,180,1) 49%, rgba(252,70,107,1) 100%);
+    background: rgb(30, 30, 32);
 }
