@@ -2,74 +2,82 @@
 <html lang="fr">
 
 <head>
+    <meta charset="UTF-8">
     <meta name="author" content="Nathanael1109">
-    <meta name="keywords" content="elevenonine, 1109, nathanael, Nathanael1109, nath du 11, minecraft, garrysmod, garry's mod, gmod, scprp, mc, scp, themadness, hypixel, je sais pas pk j'ai mit hypixel..., waw t'a cherché jusqu'ici... tu est spécial..">
+    <meta name="keywords" content="elevenonine, 1109, nathanael, Nathanael1109, nath du 11, minecraft, garrysmod, garry's mod, gmod, scprp, mc, discord, scp, themadness, hypixel, je sais pas pk j'ai mit hypixel..., waw t'a cherché jusqu'ici... tu est spécial..">
     <meta name="copyright" content="Nathanael1109">
     <meta name="generator" content="VSC">
     <meta name="publisher" content="Nathanael1109">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="img/favicon.ico">
-    <link rel="apple-touch-icon" href="img/favicon.ico">
-    <title>ElevenONine [EN DEV]</title>
-    <meta charset="utf-8">
+    <link rel="icon" href="images/logo.png">
+    <link rel="apple-touch-icon" href="images/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
+    <title>Eleven-O-Nine</title>
 </head>
 
 <body>
-
-    <!-- Header -->
-    <header>
-
-        <div class="eon">
-            <h1>Eleven-O-Nine !</h1>
+    <section id="home" class="home-container">
+        <header id="header" class="header">
+            <img src="images/logo.png" alt="Logo du site" class="logo">
+            <ul class="nav-links">
+                <li>
+                    <a href="#" data-text="Accueil">Accueil</a>
+                </li>
+                <li>
+                    <a href="#dis" data-text="Discords">Discords</a>
+                </li>
+                <li>
+                    <a href="#" data-text="Panel">Panel</a>
+                </li>
+            </ul>
+            <div class="burger-container">
+                <div class="burger"></div>
+            </div>
+        </header>
+        <div class="landing">
+            <h1 class="big-title">Eleven-O-Nine, Work in progress</h1>
+            <a href="#dis" class="delivery-link">
+                <span class="scroll-text" data-text="Scroll">Scroll</span>
+                <i class="scroll-icon fas fa-angle-down"></i>
+            </a>
         </div>
-
-        <div class="wip">
-            <h3>(work in progress..)</h3>
+    </section>
+    <section id="discordlogo" class="discordlogo-container">
+        <div class="logo">
+            <img src="/images/serv_dis/LogoDiscord_no_bg.png" alt="LogoDiscord"> 
         </div>
-
-    </header>
-
-    <!-- Menu navigation -->
-    <nav class="menu-nav">
-        <ul>
-            <li class="bouton">
-                <a href="index.html">
-                    Acceuil
-                </a>
-            </li>
-            <li class="bouton">
-                <a href="contact.html">
-                    Contact
-                </a>
-            </li>
-            <li class="bouton">
-                <a href="panel.html">
-                   Panel
-                </a>
-            </li>
-        </ul>
-    </nav>
-
-    <!-- Contenu -->
-    <div id="content">
-        <div class="discord">
-            <p class="themadness">
-                [Gmod] Themadness SCPRP : <a href="https://discord.gg/57zrBbWvqC" target="_blank">https://discord.gg/57zrBbWvqC</a>
-            </p>
-            <p class="netheria">
-                [MC] Netheria FACTION : <a href="https://discord.gg/bzUaZwB8Bn" target="_blank">https://discord.gg/bzUaZwB8Bn</a>
-            </p>
+    </section>
+    <section id="dis" class="dis-container">
+        <h1 class="section-title">Discords !</h1>
+        <div class="discords">
+            <a href="https://discord.gg/bzUaZwB8Bn" target="_blank" class="discord no-grid tm">
+                <div class="discord-tm">
+                    <h1 class="discord-name">TheMadness</h1>
+                    <h3 class="server-type">Gmod/SCP:RP</h3>
+                </div>
+            </a>
+            <a href="https://discord.gg/57zrBbWvqC" target="_blank" class="discord no-grid netheria">
+                <div class="discord-netheria">
+                    <h1 class="discord-name">Netheria </h1>
+                    <h3 class="server-type">MC/Vanilla/1.7.10-1.18.1</h3>
+                </div>
+            </a>
         </div>
-    </div>
-    <div class="vide">
-        
-    </div>
-    <!-- footer -->
-    <footer>
-        <p>
-            Copyright &copy; Nathanaël1109 - All right reserved
-        </p>
+    </section>
+    <footer id="footer" class="footer">
+        <span class="copyrights">&copy; 2021 - Eleven-O-Nine</span>
+        <a href="#" class="conditions">nathanael.lamproye@hotmail.fr / Discord (Nathanaël#0406)</a>
     </footer>
+    <script>
+        const burgerContainer = document.querySelector('.burger-container');
+        const navLinks = document.querySelector('.nav-links');
+
+        burgerContainer.addEventListener('click', () => {
+            burgerContainer.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        })
+    </script>
 </body>
+
 </html>
