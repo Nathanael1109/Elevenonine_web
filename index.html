@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 
+<!-- Head -->
+
 <head>
     <meta name="google-site-verification" content="V4s7k0Yqedg-0_TVWgiWD-oX1nUUYC8kfrVMS-LgjAo" />
     <meta charset="UTF-8">
@@ -17,13 +19,15 @@
     <title>Eleven-O-Nine</title>
 </head>
 
+<!-- Body -->
+
 <body>
     <section id="home" class="home-container">
         <header id="header" class="header">
-            <img src="images/logo.png" alt="Logo du site" class="logo">
+            <img src="images/logo.png" alt="Logo du site" class="logo"> <!-- Logo -->
             <ul class="nav-links">
                 <li>
-                    <a href="#" data-text="Accueil">Accueil</a>
+                    <a href="#" data-text="Accueil">Accueil</a> 
                 </li>
                 <li>
                     <a href="#dis" data-text="Discords">Discords</a>
@@ -37,39 +41,50 @@
             </div>
         </header>
         <div class="landing">
-            <h1 class="big-title">Eleven-O-Nine, Work in progress</h1>
+            <h1 class="big-title">Eleven-O-Nine, Work in progress</h1> <!-- big title in front of page -->
             <a href="#dis" class="delivery-link">
-                <span class="scroll-text" data-text="Scroll">Scroll</span>
+                <span class="scroll-text" data-text="Scroll">Scroll</span> <!-- Scroll down button, bottom left of the green page -->
                 <i class="scroll-icon fas fa-angle-down"></i>
             </a>
         </div>
     </section>
     <section id="discordlogo" class="discordlogo-container">
         <div class="logo">
-            <img src="/images/serv_dis/LogoDiscord_no_bg.png" alt="LogoDiscord"> 
+            <img src="/images/serv_dis/LogoDiscord_no_bg.png" alt="LogoDiscord"> <!-- Discord logo -->
         </div>
     </section>
     <section id="dis" class="dis-container">
-        <h1 class="section-title">Discords !</h1>
+        <h1 class="section-title">Discords !</h1> <!-- Title of the category -->
         <div class="discords">
-            <a href="https://discord.gg/bzUaZwB8Bn" target="_blank" class="discord no-grid tm">
+            <!-- TheMadness -->
+            <a href="https://discord.gg/bzUaZwB8Bn" target="_blank" class="discord no-grid tm"> 
                 <div class="discord-tm">
                     <h1 class="discord-name">TheMadness</h1>
                     <h3 class="server-type">Gmod/SCP:RP</h3>
                 </div>
             </a>
+            <!-- Eklazion -->
             <a href="https://discord.gg/57zrBbWvqC" target="_blank" class="discord no-grid netheria">
                 <div class="discord-netheria">
-                    <h1 class="discord-name">Netheria </h1>
+                    <h1 class="discord-name">Eklazion </h1>
                     <h3 class="server-type">MC/Vanilla/1.7.10-1.18.1</h3>
                 </div>
             </a>
         </div>
     </section>
+
+<!-- Footer -->
+
     <footer id="footer" class="footer">
+        <!-- Copyright -->
         <span class="copyrights">&copy; 2021 - Eleven-O-Nine</span>
-        <a href="#" class="conditions">nathanael.lamproye@hotmail.fr / Discord (Nathanaël#0406)</a>
+        <!-- Contact -->
+        <a href="mailto:nathanael.lamproye@hotmail.fr" target="_blank" class="conditions">Mail : nathanael.lamproye@hotmail.fr</a>
+        <a href="https://discord.com/app/" target="_blank" class="conditions">Discord : Nathanaël#0406</a>
     </footer>
+
+<!-- Scripts -->
+
     <script>
         const burgerContainer = document.querySelector('.burger-container');
         const navLinks = document.querySelector('.nav-links');
@@ -79,6 +94,7 @@
             navLinks.classList.toggle('active');
         })
     </script>
+
 </body>
 
 </html>
