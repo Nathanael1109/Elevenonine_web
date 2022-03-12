@@ -89,6 +89,16 @@
 
 .ip-mc {
     font-size: 100px;
+    margin: 5px;
+}
+
+.ip {
+    font-size: 100px;
+    border: solid 2.5px;
+}
+
+.playercount {
+    font-size: 20px;
 }
 
 .ver-mc {
