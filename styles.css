@@ -45,7 +45,6 @@
     color: white;
     text-decoration: none;
     position: relative;
-    display: block;
     transition: transform 0.4s;
 }
 
