@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!-- Head -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Nathanael1109">
+    <meta name="copyright" content="Nathanael1109">
+    <meta name="generator" content="VSC">
+    <meta name="publisher" content="Nathanael1109">
+    <link rel="icon" href="../images/logo.png">
+    <link rel="apple-touch-icon" href="../images/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
+    <title>Eleven-O-Nine - Contact</title>
+</head>
+
+<!-- Body -->
+
+<body>
+    <section id="home" class="home-container">
+        <header id="header" class="header">
+            <img src="../images/logo.png" alt="Logo du site" class="logo"> <!-- Logo -->
+            <ul class="nav-links">
+                <li>
+                    <a href="../">Accueil</a> 
+                </li>
+                <li>
+                    <a href="../index.html#dis">Discords</a>
+                </li>
+                <li>
+                    <a href="../404">Panel</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+            <div class="burger-container">
+                <div class="burger"></div>
+            </div>
+        </header>
+        <div class="landing">
+            <link href="contact-form.css" rel="stylesheet">
+
+            <div class="fcf-body">
+            
+                <div id="fcf-form">
+                <h3 class="fcf-h3">Contact</h3>
+            
+                <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+                    
+                    <div class="fcf-form-group">
+                        <label for="Name" class="fcf-label">Votre nom</label>
+                        <div class="fcf-input-group">
+                            <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                        </div>
+                    </div>
+            
+                    <div class="fcf-form-group">
+                        <label for="Email" class="fcf-label">Votre email</label>
+                        <div class="fcf-input-group">
+                            <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                        </div>
+                    </div>
+            
+                    <div class="fcf-form-group">
+                        <label for="Message" class="fcf-label">Votre message</label>
+                        <div class="fcf-input-group">
+                            <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                        </div>
+                    </div>
+            
+                    <div class="fcf-form-group">
+                        <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Envoyer</button>
+                    </div>
+            
+                </form>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+<!-- Footer -->
+
+    <footer id="footer" class="footer">
+        <!-- Copyright -->
+        <span class="copyrights">&copy; 2021 - Eleven-O-Nine</span>
+        <!-- Contact -->
+        <a href="mailto:nathanael.lamproye@hotmail.fr" target="_blank" class="conditions">Mail : nathanael.lamproye@hotmail.fr</a>
+        <a href="https://discord.com/app/" target="_blank" class="conditions">Discord : Nathanaël#0406</a>
+    </footer>
+
+<!-- Scripts -->
+
+    <script>
+        const burgerContainer = document.querySelector('.burger-container');
+        const navLinks = document.querySelector('.nav-links');
+
+        burgerContainer.addEventListener('click', () => {
+            burgerContainer.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        })
+    </script>
+
+</body>
+
+</html>

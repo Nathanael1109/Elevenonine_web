@@ -218,22 +218,13 @@
         font-size: 30px;
     }
 
-    .discordlogo-container {
-        flex-direction: column;
-        justify-content: center;
-        padding: 50px;
-    }
-
-    .discordlogo-container div {
-        margin: 30px;
-    }
-
     .grid {
         flex: 1;
         min-width: 350px;
         height: 500px;
     }
 }
+
 
 @media (max-width: 550px) {
 
