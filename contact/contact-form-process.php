@@ -31,17 +31,17 @@ if (isset($_POST['Email'])) {
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
 
     if (!preg_match($email_exp, $email)) {
-        $error_message .= 'L''adresse Email n''est pas valide.<br>';
+        $error_message .= "L'adresse Email n'est pas valide.<br>";
     }
 
     $string_exp = "/^[A-Za-z .'-]+$/";
 
     if (!preg_match($string_exp, $name)) {
-        $error_message .= 'Le nom n''est pas valide.</p>.<br>';
+        $error_message .= "Le nom n'est pas valide.</p>.<br>";
     }
 
     if (strlen($message) < 2) {
-        $error_message .= 'Le message n''est pas valide.<br>';
+        $error_message .= "Le message n'est pas valide.<br>";
     }
 
     if (strlen($error_message) > 0) {
