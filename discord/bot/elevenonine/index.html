@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!-- Head -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Nathanael1109">
+    <meta name="copyright" content="Nathanael1109">
+    <meta name="generator" content="VSC">
+    <meta name="publisher" content="Nathanael1109">
+    <link rel="icon" href="../../../images/logo.png">
+    <link rel="apple-touch-icon" href="../images/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="404.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
+    <title>Eleven-O-Nine - Bot Eleven-O-Nine</title>
+</head>
+
+<!-- Body -->
+
+<body>
+    <section id="home" class="home-container">
+        <header id="header" class="header">
+            <img src="../../../images/logo.png" alt="Logo du site" class="logo"> <!-- Logo -->
+            <ul class="nav-links">
+                <li>
+                    <a href="../../../" data-text="Accueil">Accueil</a> 
+                </li>
+                <li>
+                    <a href="../../../index.html#dis" data-text="Discords">Discords</a>
+                </li>
+                <li>
+                    <a href="../../../404" data-text="Panel">Panel</a>
+                </li>
+                <li>
+                    <a href="../../../404" data-text="Contact">Contact</a>
+                </li>
+            </ul>
+            <div class="burger-container">
+                <div class="burger"></div>
+            </div>
+        </header>
+        <div class="landing">
+            <div class="top">
+                <h1 class="big-title">Bot Eleven-O-Nine</h1> <!-- big title in front of page -->
+                <img class="img" src="./img/Bot_profile.png" alt="Profile du bot">
+            </div>
+            <div class="bottom"></div>
+                <p class="description">Le bot Eleven-O-Nine est un bot Discord qui a pour but de re;plir toutes les taches que vous lui demanderez. Il est capable de plein de chose que ça soit de l'utilitaire, modération (soon), musique (soon), vocaux privés (soon), et bien d'autre !</p> <!-- description in front of page -->
+                <a href="https://discord.com/api/oauth2/authorize?client_id=930931621408956436&permissions=8&scope=bot%20applications.commands" class="returnbtn" data-text="Accueil">Inviter</a> 
+            </div>
+        </div>
+    </section>
+
+<!-- Footer -->
+
+    <footer id="footer" class="footer">
+        <!-- Copyright -->
+        <span class="copyrights">&copy; 2021 - Eleven-O-Nine</span>
+        <!-- Contact -->
+        <a href="mailto:nathanael.lamproye@hotmail.fr" target="_blank" class="conditions">Mail : nathanael.lamproye@hotmail.fr</a>
+        <a href="https://discord.com/app/" target="_blank" class="conditions">Discord : Nathanaël#0406</a>
+    </footer>
+
+<!-- Scripts -->
+
+    <script>
+        const burgerContainer = document.querySelector('.burger-container');
+        const navLinks = document.querySelector('.nav-links');
+
+        burgerContainer.addEventListener('click', () => {
+            burgerContainer.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        })
+    </script>
+
+</body>
+
+</html>
