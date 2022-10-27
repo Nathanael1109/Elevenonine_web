@@ -20,7 +20,7 @@
             <img class="wip" src="/images/work_in_progress.png" alt="Paneau 'Work in progress' (travail en cours)">
         </header>
 
-        <section class="front">
+        <!-- <section class="front">
             <div class="selection">
                 <a href="/bot/">Bot Discord</a>
             </div>
@@ -30,7 +30,18 @@
             <div class="selection">
                 <a href="#">Work in progress</a>
             </div>
-        </section>
+        </section> -->
+
+        <div id="menu">
+            <div id="menu-items">
+              <a href="/bot/" class="menu-item">Bot Discord</a>
+              <a href="/discord/" class="menu-item">Serveur Discord</a>
+              <a href="#" class="menu-item">Soon...</a>
+              <a href="#" class="menu-item">(Work in progress)</a>
+            </div>
+            <div id="menu-background-pattern"></div>
+            <div id="menu-background-image"></div>
+        </div>
     
     </section>
 
@@ -49,5 +60,6 @@
             navbar.classList.toggle('active');
         })
     </script>
+    <script src="menu-animation.js"></script>
 </body>
 </html>
